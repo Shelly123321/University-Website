@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/menu.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/close.css"
+      rel="stylesheet"
+    />
+
+    <body>
+        <section class="sub-header">
+          <nav>
+            <a href="index.html"><img src="images/img1/logo.png" alt="" /></a>
+            <div class="nav-links" id="navLinks">
+              <i class="gg-close" onclick="hideMenu()"></i>
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+              </ul>
+            </div>
+            <i class="gg-menu" onclick="showMenu()"></i>
+          </nav>
+          <h1>Our Courses</h1>
+        </section>
+    
+        <!-- ****************** Course ******************** -->
+        <section class="course">
+            <h1>Course We Offer</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      
+            <div class="row">
+              <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                  minima voluptatem nobis quidem repellendus ut iusto quasi enim
+                  aspernatur quis! Doloribus similique corrupti pariatur optio sit quo
+                  aspernatur ipsam error.
+                </p>
+              </div>
+              <div class="course-col">
+                <h3>Degree</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                  minima voluptatem nobis quidem repellendus ut iusto quasi enim
+                  aspernatur quis! Doloribus similique corrupti pariatur optio sit quo
+                  aspernatur ipsam error.
+                </p>
+              </div>
+              <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                  minima voluptatem nobis quidem repellendus ut iusto quasi enim
+                  aspernatur quis! Doloribus similique corrupti pariatur optio sit quo
+                  aspernatur ipsam error.
+                </p>
+              </div>
+            </div>
+          </section>
+
+            <!-- ****************** Facilities ******************** -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+  
+        <div class="row">
+          <div class="facilities-col">
+            <img src="images/img1/library.png" alt="" />
+            <h3>World Class Library</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+              veniam sequi enim. Amet, labore est!
+            </p>
+          </div>
+          <div class="facilities-col">
+            <img src="images/img1/basketball.png" alt="" />
+            <h3>Largest Play Ground</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+              veniam sequi enim. Amet, labore est!
+            </p>
+          </div>
+          <div class="facilities-col">
+            <img src="images/img1/cafeteria.png" alt="" />
+            <h3>Tasty and Healthy Food</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+              veniam sequi enim. Amet, labore est!
+            </p>
+          </div>
+        </div>
+      </section>
+  
+    
+        <!-- ****************** Footer ******************** -->
+    
+        <section class="footer">
+          <h4>About Us</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea et aliquid
+            deserunt ratione, perferendis cumque, <br />itaque possimus sapiente
+            commodi iure nemo quo quibusdam!
+          </p>
+          <br />
+          <div class="icons">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+          </div>
+          <br />
+          <h4>Website Crafted by Shelly Siwach <i class="fa fa-heart-o"></i></h4>
+        </section>
+    
+        <!-- ****************** JavaScript for Toggle Menu ******************** -->
+    
+        <script>
+          var navLinks = document.getElementById("navLinks");
+    
+          function showMenu() {
+            navLinks.style.right = "0";
+          }
+    
+          function hideMenu() {
+            navLinks.style.right = "-200px";
+          }
+        </script>
+      </body>
+    </html>
+    
